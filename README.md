@@ -9,6 +9,9 @@ You need an anthropic api key to make this work locally. Set it up in your env l
 export ANTHROPIC_API_KEY="<anthropic api key>"
 ```
 
+## Example
+![Example](https://github.com/DanielOchoa/ai-agent/blob/7a47ba27f571c82dadbe8da1a85c4f7b3514bb85/assets/example.png)
+
 ## Tools
 
 It includes 3 tools so the AI can work with your file system:
