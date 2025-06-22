@@ -1,0 +1,7 @@
+# ignoring these extensions since these types are created by the AI on this directory.
+*.txt
+*.js
+# ignore compiled program
+agent
+# ignore file i'm using to store api key locally
+.api_key
