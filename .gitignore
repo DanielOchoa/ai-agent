@@ -5,3 +5,5 @@
 agent
 # ignore file i'm using to store api key locally
 .api_key
+# misc
+.DS_Store
