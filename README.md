@@ -19,6 +19,7 @@ It includes 3 tools so the AI can work with your file system:
 - Read files
 - List files
 - Edit files
+- Get weather (US only)
 
 With these three included tools you can ask the LLM Model to check on files, explain to you contents of files,
 edit or create files - adjust scripts for example, and more.
