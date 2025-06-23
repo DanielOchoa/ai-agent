@@ -14,7 +14,6 @@ import (
 func main() {
 	// defaults to os.LookupEnv("ANTHROPIC_API_KEY")
 	anthropicClient := anthropic.NewClient()
-
 	scanner := bufio.NewScanner(os.Stdin)
 
 	getUserMessage := func() (string, bool) {
@@ -23,11 +22,11 @@ func main() {
 		}
 		return scanner.Text(), true
 	}
-
 	tools := []tools.ToolDefinition{
 		tools.ReadFileDefinition,
 		tools.ListFilesDefinition,
 		tools.EditFileDefinition,
+		tools.WeatherDefinition,
 	}
 
 	agent := client.NewAgent(&anthropicClient, getUserMessage, tools)
